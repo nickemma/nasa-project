@@ -35,7 +35,7 @@ const AppLayout = (props) => {
     setFrameVisible(false);
     setTimeout(() => {
       setFrameVisible(true);
-    }, 600);
+    }, 800);
   };
 
   const onSuccessSound = () => sounds.success && sounds.success.play();
