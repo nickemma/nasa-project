@@ -5,6 +5,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 const planetsRouter = require('./routes/planets.router');
+const launchesRouter = require('./routes/launches.router');
 const { loadPlanetsData } = require('./model/planets.model');
 
 // Middlewares
@@ -16,6 +17,7 @@ app.use(express.json({ limit: '30mb' }));
 
 // Routes
 app.use(planetsRouter);
+app.use(launchesRouter);
 
 // Connections
 const port = process.env.PORT || 8000;
