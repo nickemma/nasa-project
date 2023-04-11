@@ -1,70 +1,233 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://buggo.vercel.app/">
+    <img src="client/public/favicon.png" alt="nasa-logo" height="80">
+  </a>
 
-## Available Scripts
+  <h5 align="center">
+    <br />
+    <a href="#" target="_blank">Live Demo Coming soon</a>
+    |
+    <a href="https://github.com/nickemma/nasa-project/issues/new" target="_blank">Report Bug</a>
+    |
+    <a href="https://github.com/nickemma/nasa-project/issues/new" target="_blank">Request Feature</a>
+  </h5>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#nasa">Nasa</a>
+      <ul>
+        <li><a href="#live-link">Live Link</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#clone-locally">Clone Locally</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#development">Development</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `yarn start`
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Nasa
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Schedule a mission launch for interstellar travel to one of the Kepler Exoplanets.
+Only confirmed planets matching the following criteria are available for the earliest scheduled missions:
 
-### `yarn test`
+- Planetary radius < 1.6 times Earth's radius
+- Effective stellar flux > 0.36 times Earth's value and < 1.11 times Earth's value.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Upcoming missions including both SpaceX launches and newly scheduled Zero to Mastery rockets.
 
-### `yarn build`
+<div align="center">
+  <img  width="1000" alt="nasa-screenshot" src="client/public/nasa.png">
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Live link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Experience the magic of **Nasa** for yourself! Explore nasa today and discover a world of exciting features and unparalleled convenience at your fingertips. Whether you're looking to learn, connect, or simply explore. [Click here to view it live](coming soon).
 
-### `yarn eject`
+#### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<details>
+  <summary><b>🖥️ Client</b></summary>
+  <ul>
+    <li>
+      <a href="https://react.org/">
+        <img src="https://img.shields.io/badge/React-black?style=for-the-badge&logo=react&logoColor=white" />
+      </a>
+    </li>
+    <li>
+      <a href="https://Css3.com/">
+        <img src="https://img.shields.io/badge/Css-black?style=for-the-badge&logo=css3&logoColor=white" />
+      </a>
+    </li>
+    <li>
+      <a href="https://vercel.app/">
+        <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
+      </a>
+    </li>
+  </ul>
+</details>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary><b>🔧 Server</b></summary>
+  <ul>
+    <li>
+      <a href="https://nodejs.com/">
+        <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+      </a>
+    </li>
+    <li>
+      <a href="https://expressjs.com/">
+        <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+      </a>
+    </li>
+    <li>
+      <a href="https://mongodb.com/">
+        <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
+      </a>
+    </li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+<!-- GETTING STARTED -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Clone Locally
 
-### Code Splitting
+- Enter this url: [https://github.com/nickemma/nasa-project](https://github.com/nickemma/nasa-project) in your web browser.
+- Once opened navigate to the top left level of the project a green code download button will be visible on the right hand side.
+- Select download Zip option from drop down menu.
+- Once the download is complete you will be able to access my project locally.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Prerequisites
 
-### Analyzing the Bundle Size
+- Node package manager (latest version)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  - Firstly install **node runtime environment (node.js)** then run the code below
 
-### Making a Progressive Web App
+  ```sh
+  npm install npm@latest -g
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  - Then install yarn **yarn**
 
-### Advanced Configuration
+  ```sh
+  npm install --global yarn
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Project dependencies
+  - Change to the client directory and install all packages with yarn
+    from **\_../nasa-project**
+    ```sh
+    cd client
+    npm install
+    ```
+  - Change to the server directory and install all packages with npm
+    from **_../nasa-project/client_**
+    ```sh
+    cd ..
+    cd server
+    npm install
+    ```
 
-### Deployment
+#### Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Run the client
+  - Change to the client directory and run the code below
+    from **_../nasa-project_**
+    ```sh
+    cd client
+    npm start
+    ```
+- Run the server
+  - Change to the server directory and run the code below
+    from **_../nasa-project/client_**
+    ```sh
+    cd server
+    npm run server
+    ```
 
-### `yarn build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+<!-- CONTRIBUTING -->
+
+### Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- LICENSE -->
+
+### License
+
+Please be advised that our project is released under the terms of a License. Please ensure that you read and understand the terms of the [MIT](LICENSE) License before using our project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- CONTACT -->
+
+### Contact
+
+#### Nicholas Emmanuel
+
+ <div align="center">
+ <a href="https://www.linkedin.com/in/techieemma/"><img src="https://img.shields.io/badge/linkedin-%23f78a38.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a> 
+ <a href="https://twitter.com/@techieemma_"><img src="https://img.shields.io/badge/Twitter-%23f78a38.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"></a> 
+ <a href="https://github.com/nickemma/"><img src="https://img.shields.io/badge/github-%23f78a38.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github"></a> 
+ <a href="https://medium.com/@nicholasemmanuel321"><img src="https://img.shields.io/badge/Medium-%23f78a38.svg?style=for-the-badge&logo=MediUm&logoColor=white" alt="Medium"></a> 
+ <a href="mailto:nicholasemmanuel321@gmail.com"><img src="https://img.shields.io/badge/Gmail-f78a38?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+ </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- [Zero To Mastery](https://zerotomastery.io/) for the UI design inspiration for this project.
+- [LazyCoders](https://lazy-coders.netlify.app/) for their help and support
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
