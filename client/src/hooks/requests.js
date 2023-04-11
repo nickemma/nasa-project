@@ -33,6 +33,16 @@ const httpSubmitLaunch = async (launch) => {
 };
 
 // Delete launch with given ID.
-const httpAbortLaunch = async (id) => {};
+const httpAbortLaunch = async (id) => {
+  try {
+    return await fetch(`${API_URL}/launches/${id}`, {
+      method: 'delete',
+    });
+  } catch (error) {
+    return {
+      ok: false,
+    };
+  }
+};
 
 export { httpGetPlanets, httpGetLaunches, httpSubmitLaunch, httpAbortLaunch };
