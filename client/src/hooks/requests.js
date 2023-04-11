@@ -16,7 +16,21 @@ const httpGetLaunches = async () => {
 };
 
 // Submit given launch data to launch system.
-const httpSubmitLaunch = async (launch) => {};
+const httpSubmitLaunch = async (launch) => {
+  try {
+    return await fetch(`${API_URL}/launches`, {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(launch),
+    });
+  } catch (error) {
+    return {
+      ok: false,
+    };
+  }
+};
 
 // Delete launch with given ID.
 const httpAbortLaunch = async (id) => {};
