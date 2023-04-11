@@ -1,4 +1,9 @@
-const { launches, addNewLaunch } = require('../model/launches.model');
+const {
+  launches,
+  addNewLaunch,
+  existingLaunch,
+  abortLaunchById,
+} = require('../model/launches.model');
 
 /*
  * @route   GET /Launches
@@ -38,7 +43,26 @@ const createNewLaunch = (req, res) => {
   return res.status(201).json(launch);
 };
 
+/*
+ * @route   DELETE /Launch
+ * @desc    Delete a Launch based on the id
+ * @access  Public
+ */
+
+const deleteLaunch = (req, res) => {
+  const launchId = Number(req.params.id);
+
+  if (!existingLaunch(launchId)) {
+    return res.status(404).json({
+      error: 'Launch not found',
+    });
+  }
+  const aborted = abortLaunchById(launchId);
+  return res.status(200).json(aborted);
+};
+
 module.exports = {
   getAllLaunches,
   createNewLaunch,
+  deleteLaunch,
 };
