@@ -22,12 +22,12 @@ app.use(launchesRouter);
 // Connections
 const port = process.env.PORT || 8000;
 
-async function startServer() {
+const startServer = async () => {
   await loadPlanetsData();
   app.listen(port, () => {
     console.log(`server is listening on http://localhost:${port}`);
   });
-}
+};
 startServer();
 
 app.get('/', (req, res) => {

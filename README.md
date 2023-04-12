@@ -76,8 +76,8 @@ Experience the magic of **Nasa** for yourself! Explore nasa today and discover a
       </a>
     </li>
     <li>
-      <a href="https://Css3.com/">
-        <img src="https://img.shields.io/badge/Css-black?style=for-the-badge&logo=css3&logoColor=white" />
+      <a href="https://Styled-components.com/">
+        <img src="https://img.shields.io/badge/StyledComponents-black?style=for-the-badge&logo=styled-components&logoColor=white" />
       </a>
     </li>
     <li>
