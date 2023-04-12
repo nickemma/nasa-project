@@ -4,6 +4,7 @@ const {
   existingLaunch,
   abortLaunchById,
 } = require('../model/launches.model');
+const launchess = require('../model/launches.mongodb');
 
 /*
  * @route   GET /Launches
@@ -11,8 +12,9 @@ const {
  * @access  Public
  */
 
-const getAllLaunches = (req, res) => {
-  return res.status(200).json(Array.from(launches.values()));
+const getAllLaunches = async (req, res) => {
+  const launchesData = await launchess.find({}, { _id: 0, __v: 0 });
+  return res.status(200).json(launchesData);
 };
 
 /*
